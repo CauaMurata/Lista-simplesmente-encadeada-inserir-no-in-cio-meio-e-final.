@@ -87,6 +87,8 @@ int main(void) {
         system("clear");
         printf("\n Valor: ");
         scanf("%d",&valor);
+        printf("\n Anterior: ");
+        scanf("%d",&anterior);
         inserir_meio(&lista,valor,anterior);
         break;
       case 4:
